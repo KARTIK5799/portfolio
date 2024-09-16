@@ -1,0 +1,53 @@
+.typewriter-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid transparent;
+  }
+  
+  .cursor {
+    display: inline-block;
+    margin-left: 0.2rem;
+    font-weight: bold;
+    animation: blink 0.7s infinite step-start;
+    color: #333;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Text gradient with animation */
+  .gradient-text {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #61d4b3, #ff9a8b);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 10s ease infinite;
+  }
+  
+  @keyframes textGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

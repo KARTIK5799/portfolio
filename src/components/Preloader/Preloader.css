@@ -1,0 +1,96 @@
+
+
+
+.loading-screen {
+  background: #edeeff;
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+
+.counter {
+    clip-path: polygon(0 0, 100% 0, 100% 100px, 0 100px);
+}
+
+
+
+.numoffset1 {
+    position: relative;
+    right: -25px;
+}
+
+.numoffset2 {
+    position: relative;
+    right: -10px;
+}
+
+.loader {
+    background: #c4c4f0;
+}
+.loader-1 {
+    background: #2f3356;
+}
+
+/* Responsive Styles */
+
+/* Medium Devices (Tablets) */
+@media (max-width: 1024px) {
+    .counter {
+        font-size: 70px;
+        height: 70px;
+    }
+
+    .loader {
+        width: 90vw;
+    }
+
+    .loader-1 {
+        width: 170px;
+    }
+
+   
+
+   
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 768px) {
+    .counter {
+        font-size: 50px;
+        height: 50px;
+    }
+
+    .loader {
+        width: 90vw;
+    }
+
+    .loader-1 {
+        width: 120px;
+    }
+
+   
+
+    .logo img {
+        height: 10rem;
+    }
+
+}
+
+/* Extra Small Devices (Phones, Smaller Screens) */
+@media (max-width: 480px) {
+    .counter {
+        font-size: 30px;
+        height: 30px;
+    }
+
+    .loader {
+        width: 90rem;
+    }
+
+   
+
+    .logo img {
+        height: 10rem;
+    }
+
+    
+}
