@@ -94,7 +94,7 @@ const Preloader = ({ onComplete }) => {
           <div className="loader-1 bar h-[60px] w-0"></div>
         </div>
 
-        <div className="counter fixed flex h-[100px] text-[100px] leading-[102px] font-normal text-[#2f3356] right-[50px] bottom-[50px]">
+        <div className="counter fixed flex h-[100px] text-[100px] leading-[102px] font-normal text-black right-[50px] bottom-[50px]">
           <div className="counter-1 digit   relative top-[-15px]">
             <div className="num">0</div>
             <div className="num num1offset1 ">1</div>

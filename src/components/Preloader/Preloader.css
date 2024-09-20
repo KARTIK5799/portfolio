@@ -2,7 +2,7 @@
 
 
 .loading-screen {
-  background: #edeeff;
+  background: #ffffff;
     transition: opacity 1s ease, visibility 1s ease;
 }
 
@@ -24,10 +24,10 @@
 }
 
 .loader {
-    background: #c4c4f0;
+    background: #7e7e7e;
 }
 .loader-1 {
-    background: #2f3356;
+    background: #000000;
 }
 
 /* Responsive Styles */
